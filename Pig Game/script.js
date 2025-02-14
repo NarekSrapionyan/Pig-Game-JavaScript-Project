@@ -27,9 +27,13 @@ const start = function () {
 
     Dice.classList.add('hidden');
 
+    Player_1.classList.remove("player--winner");
+    Player_2.classList.remove("player--winner");
+
     Player_1.classList.add("player--active");
-    Player_2.classList.remove("player.active");
+    Player_2.classList.remove("player--active");
 };
+
 start();
 
 const switchplayer = function () {
