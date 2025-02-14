@@ -68,7 +68,7 @@ Hold.addEventListener('click', function () {
             score[activePlayer];
 
 
-        if (score[activePlayer] >= 50) {
+        if (score[activePlayer] >= 100) {
 
             playing = false;
             Dice.classList.add('hidden');
